@@ -1,0 +1,28 @@
+// Input
+1. Create - sahil | Hello, I am sahil
+2. Create - sahil | Hello there
+3. Create - pankaj | How are you? | 10
+
+4. Read - sahil
+5. Read - pankaj    (befor 10 seconds)
+6. Read - pankaj    (after 10 seconds)
+
+7. Delete - pankaj
+8. Delete - pankaj
+
+
+
+
+
+
+//  Output
+1. Data for sahil created.
+2. Data for sahil is already present.
+3. Data for pankaj created.
+
+4. {sahil: {Hello, I am sahil}}.
+5. {pankaj: {How are you?}}.
+6. Data for Pankaj is expired.
+
+7. Data of pankaj deleted.
+8. Data of pankaj doesnot exists.
